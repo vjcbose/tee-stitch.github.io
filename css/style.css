@@ -1,63 +1,174 @@
-/* Reset some default styles for better consistency */
-body, h1, h2, p {
+/* Global styles */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+  }
 
-body {
+  body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
+    font-size: 16px;
+    line-height: 1.5;
+  }
 
-header {
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  /* Header */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  header h1 {
+    font-size: 28px;
+    padding: 20px;
+    margin: 0;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  nav li {
+    margin-left: 20px;
+  }
+
+  nav li:first-child {
+    margin-left: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+
+  nav a:hover {
+    background-color: #f7f7f7;
+  }
+
+
+  /* Add a background color and change the font color of the navigation bar */
+nav {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+  }
 
-main {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+  /* Add a hover effect to the navigation links */
+  nav a:hover {
+    color: #ffc107;
+  }
 
-.product-list {
+  /* Style the header section with a background image and center-aligned text */
+  header {
+    background-image: url('https://example.com/background-image.jpg');
+    background-size: cover;
+    height: 500px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
-}
-
-.product {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-}
+    color: #fff;
+  }
 
-.product img {
-    max-width: 100%;
-}
+  /* Add some padding to the header text and style the button */
+  header h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 1rem;
+  }
 
-.price {
-    font-weight: bold;
-}
-
-.add-to-cart {
-    background-color: #333;
+  header button {
+    background-color: #ffc107;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
     cursor: pointer;
-}
+    transition: all 0.3s ease;
+  }
 
-footer {
-    text-align: center;
-    padding: 10px;
+  header button:hover {
+    background-color: #ff9800;
+  }
+
+  /* Style the section with a grid layout */
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  /* Style the cards within the grid */
+  section .card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+
+  section .card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  section .card p {
+    margin: 0;
+  }
+
+  /* Style the footer section */
+  footer {
     background-color: #333;
     color: #fff;
-}
+    text-align: center;
+    padding: 2rem;
+  }
+
+  footer p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+ /* Contact Page CSS */
+
+/* Hover effect on body */
+.contact-body:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.5s;
+  }
+
+  /* See More Button */
+  .see-more-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .see-more-button:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Contact Details CSS */
+
+  /* Add your CSS for the contact details page here */

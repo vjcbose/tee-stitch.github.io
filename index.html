@@ -1,29 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apparel Store</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <title>TEE-STITCH</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
     <header>
-        <h1>Apparel Store</h1>
+      <h1>My Name</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
+
     <main>
-        <section class="product-list">
-            <div class="product">
-                <img src="product1.jpg" alt="Product 1">
-                <h2>Product 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <span class="price">$49.99</span>
-                <button class="add-to-cart">Add to Cart</button>
-            </div>
-            <!-- Repeat this product structure for additional products -->
-        </section>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>Insert some text about yourself here.</p>
+      </section>
+
+      <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Insert a brief description of Project 1 here.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Insert a brief description of Project 2 here.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>Insert a brief description of Project 3 here.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 Apparel Store</p>
+      <p>Copyright © Your Name</p>
     </footer>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
