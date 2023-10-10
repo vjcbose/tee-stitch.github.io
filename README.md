@@ -1,2 +1,2 @@
-# tee-stitch.github.io
+# tee-stitch.com
 Clothing Brand
