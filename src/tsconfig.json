@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "target": "ES2020",
+    "module": "CommonJS",
+    "strict": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2018", "DOM"],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node"],
+    "allowJs": true,
+    "skipDefaultLibCheck": true,
+    "strictPropertyInitialization": false,
+    "angularCompilerOptions": {
+      "fullTemplateTypeCheck": true,
+      "strictInjectionParameters": true
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

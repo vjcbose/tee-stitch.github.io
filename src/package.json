@@ -1,0 +1,66 @@
+{
+  "name": "clothing-brand",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^12.0.0",
+    "@angular/common": "^12.0.0",
+    "@angular/compiler": "^12.0.0",
+    "@angular/core": "^12.0.0",
+    "@angular/forms": "^12.0.0",
+    "@angular/platform-browser": "^12.0.0",
+    "@angular/platform-browser-dynamic": "^12.0.0",
+    "@angular/router": "^12.0.0",
+    "rxjs": "^7.0.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4",
+
+
+    "bootstrap": "^5.7.0", // For Bootstrap CSS, you can choose a different version
+    "ngx-bootstrap": "^7.0.0", // For Angular Bootstrap components
+
+    "firebase": "^9.0.0", // If you plan to use Firebase for authentication or data storage
+
+    "ngx-toastr": "^15.0.0", // For displaying toasts and notifications
+
+    "ngx-spinner": "^10.0.0", // For loading spinners
+
+    "angularfire2": "^5.0.0", // For Firebase integration (depends on your Firebase version)
+
+    "lodash": "^4.17.21", // A utility library for working with arrays, objects, etc.
+
+    "ngx-pagination": "^5.0.0", // For pagination components
+
+    "ngx-image-gallery": "^4.0.0", // For image galleries
+
+    "ngx-translate/core": "^13.0.0", // For internationalization
+
+    // Additional dependencies as per your project's needs
+  },
+  "devDependencies": {
+    "@angular/cli": "^12.0.0",
+    "@angular/compiler-cli": "^12.0.0",
+    "@types/jasmine": "^3.10.0",
+    "@types/node": "^16.0.0",
+    "codelyzer": "^6.0.1",
+    "jasmine-core": "^3.10.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "karma": "^7.0.0",
+    "karma-chrome-launcher": "^4.0.0",
+    "karma-coverage": "^3.0.0",
+    "karma-jasmine": "^4.0.0",
+    "karma-jasmine-html-reporter": "^1.7.0",
+    "protractor": "^7.0.0",
+    "ts-node": "^10.2.1",
+    "tslint": "^6.1.0",
+    "typescript": "^4.5.2"
+  }
+}
