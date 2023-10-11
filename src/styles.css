@@ -1,0 +1,56 @@
+/* You can define global styles here */
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Apply styles to app-root (the root component) */
+app-root {
+  display: block;
+}
+
+/* You can add more global styles as needed */
+
+/* Example: Styling links */
+a:hover {
+  color: #0056b3;
+}
+
+/* Example: Styling buttons */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Example: Custom classes */
+.custom-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Example: Responsive design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}

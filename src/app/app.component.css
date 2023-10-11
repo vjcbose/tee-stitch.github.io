@@ -1,0 +1,21 @@
+/* Add your CSS styles here */
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
